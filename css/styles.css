@@ -1,0 +1,15 @@
+.jumbotron {
+    background-image: url(../Img/dice3.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+h1{
+    font-family: pacifico;
+}
+.col-md-12{
+    padding: 25px;
+    color: brown;
+}

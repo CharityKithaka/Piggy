@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pig-dice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>WELCOME PIG DICE'S PLAYERS</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>RULES</h1>
+                <p>1. The player can roll as many times as possible as long as they do not get a 1 because their score changes
+                    to a 0.
+                    <br> 2. The player can roll and decide to hold it for the next player to play.
+                    <br>3. The first person to make it to a 100 wins the game.</p>
+            </div>
+            <div class="col-md-12">
+                <h1>PLAYERS</h1>
+                <p>
+                    <label for="player 1">Player1Name</label>
+                    <input type="text" class="form-control" id="first">
+                    <label for="player 2">Player2Name</label>
+                    <input type="text" class="form-contro" id="second">
+                    <button type="submit" class="btn btn-primary" id="start">Lets play</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/p1.jpg" alt="" id="p1">
+                <br>
+    
+                <button type="submit" class="btn btn-primary" id="roll1">Roll dice</button>
+                <button type="submit" class="btn btn-primary" id="hold1">Hold</button>
+                <h2 id="name1"></h2>
+                <h2 id="diceRoll1">Dice Roll:</h2>
+                <h3 id="current1">Current Score:</h3>
+                <h3 id="total1">Total Score:</h3>
+    
+    
+    
+            </div>
+            <div class="col-md-6">
+                <img src="img/p2.jpg" alt="" id="p2">
+                <br>
+                <button type="submit" class="btn btn-primary" id="roll2">Roll dice</button>
+                <button type="submit" class="btn btn-primary" id="hold2">Hold</button>
+                <h2 id="name2"></h2>
+                <h2 id="diceRoll2">Dice Roll:</h2>
+                <h3 id="current2">Current Score:</h3>
+                <h3 id="total2">Total Score:</h3>
+    
+            </div>
+    
+        </div>
+    </div>
+
+
+
+</body>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>

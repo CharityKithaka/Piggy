@@ -6,10 +6,18 @@
     -o-background-size: cover;
     height: 100vh;
 }
-h1{
+
+h1 {
     font-family: pacifico;
 }
-.col-md-12{
+
+.col-md-12 {
     padding: 25px;
     color: brown;
+}
+
+#myCanvas {
+    width:10%;
+     border:1px solid #000000;
+    height: 50%;
 }

@@ -1,6 +1,13 @@
-function startPlaying() { 
-    window.location.href = "page2.html"; 
+function startPlaying() {
+    window.location.href = "page2.html";
 }
+
+
+var c = document.getElementById("myCanvas");
+var cont = c.getContext("2d");
+cont.font = "50px Arial";
+cont.strokeText("ENJOY!!!", 20, 60);
+
 
 // business logic
 
@@ -22,7 +29,7 @@ PlayerOutcome.prototype.diceOne = function () {
     }
     else {
         this.currentScore += this.roll;
-    
+
     }
 };
 PlayerOutcome.prototype.holding = function () {
@@ -84,7 +91,7 @@ $(document).ready(function () {
             $("#current1").none();
             player1.winner();
         });
-    
+
         $("#hold2").click(function () {
             player2.holding();
             $("#total2").text("Total Score:" + player2.totalScore);
@@ -92,7 +99,7 @@ $(document).ready(function () {
             $("#current2").empty();
             player2.winner();
         });
-        
+
     });
 });
 

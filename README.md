@@ -32,7 +32,7 @@ No known bugs
 * JQuery
 
 ## Support and contact details
-Email : shikez17@gmail.com
+Email : shikez17(at)gmail(dot)com
 
 ### License
 *MIT*

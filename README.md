@@ -2,7 +2,7 @@
 
 #### A pig dice game  in JavaScript, 13/04/2018
 
-#### By **Charity Kithaka**
+#### By **James Njenga**
 
 ## Description
 The pig-dice written with JavaScript to practice JavaScript and JQuery.
@@ -17,7 +17,7 @@ You can clone this repository by clicking the clone and download button and copy
 
 These are the terminal commands after cloning the project
 ```
-git clone https://github.com/CharityKithaka/Piggy
+git clone https://github.com/JamesNJenga/Piggy
 
 cd piggy
 ```
@@ -36,4 +36,4 @@ Email : shikez17(at)gmail(dot)com
 
 ### License
 *MIT*
-Copyright (c) 2018 **Charity Kithaka**
+Copyright (c) 2018 **James NJenga**

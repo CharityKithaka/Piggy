@@ -2,7 +2,7 @@
 
 #### A pig dice game  in JavaScript, 13/04/2018
 
-#### By **James Njenga**
+#### By **Charity Kithaka**
 
 ## Description
 The pig-dice written with JavaScript to practice JavaScript and JQuery.
@@ -36,4 +36,4 @@ Email : shikez17(at)gmail(dot)com
 
 ### License
 *MIT*
-Copyright (c) 2018 **James NJenga**
+Copyright (c) 2018 **Charity Kithaka**
